@@ -1,0 +1,7 @@
+.decoration-link {
+  opacity: 1;
+}
+
+.decoration-link:hover {
+  opacity: 0.7;
+}
