@@ -6,25 +6,25 @@
 .intro {
   color: #fff;
   width: 690px;
-  margin: 0 0 92px 148px;
+  padding-left: 148px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1152px) {
   .intro {
-    margin-left: 48px;
+    padding-left: 48px;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 896px) {
   .intro {
-    width: calc(100% - 48px);
-    margin: 0 auto 88px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 24px;
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 544px) {
   .intro {
-    width: calc(100% - 32px);
-    margin-bottom: 64px;
+    padding: 0 16px;
   }
 }

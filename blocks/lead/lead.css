@@ -5,26 +5,21 @@
 @import url('__caption/lead__caption.css');
 
 .lead {
-  width: calc(100% - 296px);
+  width: 100%;
   color: #fff;
-  margin: 0 auto 92px;
+  box-sizing: border-box;
+  padding: 0 148px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1152px) {
   .lead {
-    width: calc(100% - 96px);
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 896px) {
   .lead {
-    width: 100%;
-    margin-bottom: 88px;
-  }
-}
-
-@media screen and (max-width: 330px) {
-  .lead {
-    margin-bottom: 64px;
+    padding: 0;
   }
 }

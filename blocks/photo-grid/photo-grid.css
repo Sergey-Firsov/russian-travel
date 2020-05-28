@@ -6,25 +6,27 @@
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 16px;
   box-sizing: border-box;
-  padding: 0 48px 92px;
+  padding: 0 48px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1152px) {
   .photo-grid {
     grid-gap: 14px;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 896px) {
   .photo-grid {
     grid-gap: 16px;
-    padding: 0 24px 88px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 544px) {
   .photo-grid {
     grid-gap: 12px;
-    padding: 0 16px 64px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

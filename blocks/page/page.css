@@ -12,7 +12,7 @@
   -moz-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 544px) {
   .page {
     padding-top: 16px;
   }

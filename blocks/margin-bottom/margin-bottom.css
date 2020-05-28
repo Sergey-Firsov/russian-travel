@@ -1,0 +1,15 @@
+.margin-bottom {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 896px) {
+  .margin-bottom {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .margin-bottom {
+    margin-bottom: 64px;
+  }
+}
