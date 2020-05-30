@@ -5,16 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Сергей Фирсов">
   <title>Путешествие по России</title>
-  <link rel="stylesheet" href="fonts/fonts.css">
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
   <div class="page">
     <header class="header">
       <div class="header__logo"></div>
-      <nav class="header__lang-links">
-        <a class="header__lang-link decoration-link" href="#">Ru</a>
-        <a class="header__lang-link header__lang-link_lang_en decoration-link" href="#">En</a>
+      <nav class="header__lang-nav">
+        <ul class="header__list">
+          <li class="header__list-item"><a class="header__lang-link header__lang-link_mode_active decoration-link" href="#">Ru</a></li>
+          <li class="header__list-item"><a class="header__lang-link decoration-link" href="#">En</a></li>
+        </ul>
       </nav>
     </header>
     <main class="main">
@@ -38,24 +39,24 @@
         </ul>
       </section>
       <section class="photo-grid margin-bottom">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-train.jpg" alt="Фото 1">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-atharva-tulsi.jpg" alt="Фото 2">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-tuman.jpg" alt="Фото 3">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-sochi.jpg" alt="Фото 4">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-arisa.jpg" alt="Фото 5">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal-1.jpg" alt="Фото 6">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-elbrus.jpg" alt="Фото 7">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-kondratiev.jpg" alt="Фото 8">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-1.jpg" alt="Фото 9">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-2.jpg" alt="Фото 10">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal-2.jpg" alt="Фото 11">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-ergaki.jpg" alt="Фото 12">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-train.jpg" alt="Поезд">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-atharva-tulsi.jpg" alt="Горы">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-tuman.jpg" alt="Туман">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-sochi.jpg" alt="Сочи">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-arisa.jpg" alt="Автомобиль на льду">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal-1.jpg" alt="Байкал1">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-elbrus.jpg" alt="Эльбрус">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-kondratiev.jpg" alt="Кондратьев">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-1.jpg" alt="Камчатка1">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-2.jpg" alt="Камчатка2">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal-2.jpg" alt="Байкал2">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid-ergaki.jpg" alt="Ергаки">
       </section>
       <section class="places margin-bottom">
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <span class="place__url-heading">URL</span>
+            <span class="place__url-heading">url</span>
             <a class="place__link decoration-link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
           <img class="place__image" src="images/places/place-kosa.jpg" alt="Куршская коса">
@@ -67,7 +68,7 @@
         <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <span class="place__url-heading">URL</span>
+            <span class="place__url-heading">url</span>
             <a class="place__link decoration-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
           </div>
           <img class="place__image" src="images/places/place-kolsky.jpg" alt="Кольский полуостров">
@@ -79,7 +80,7 @@
         <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <span class="place__url-heading">URL</span>
+            <span class="place__url-heading">url</span>
             <a class="place__link decoration-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
           </div>
           <img class="place__image" src="images/places/place-altai.jpg" alt="Алтай">
@@ -91,7 +92,7 @@
         <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <span class="place__url-heading">URL</span>
+            <span class="place__url-heading">url</span>
             <a class="place__link decoration-link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="images/places/place-winter-baikal.jpg" alt="Зимний Байкал">
@@ -103,7 +104,7 @@
         <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <span class="place__url-heading">URL</span>
+            <span class="place__url-heading">url</span>
             <a class="place__link decoration-link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="images/places/place-karelia.jpg" alt="Карелия">
@@ -113,7 +114,6 @@
         </article>
       </section>
       <section class="cover margin-bottom">
-        <img class="cover__background" src="images/cover/cover-trains.jpg" alt="До Байкала «на собаках»">
         <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе и&nbsp;iframes&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
@@ -121,14 +121,16 @@
       </section>
     </main>
     <footer class="footer">
-      <nav class="footer__links">
-        <a class="footer__link decoration-link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="footer__link decoration-link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="footer__link decoration-link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="footer__link decoration-link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="footer__link decoration-link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__list-item"><a class="footer__link decoration-link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__list-item"><a class="footer__link decoration-link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__list-item"><a class="footer__link decoration-link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__list-item"><a class="footer__link decoration-link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__list-item"><a class="footer__link decoration-link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
       </nav>
-      <span class="footer__copyright">&copy; 2020. Сергей Фирсов</span>
+      <p class="footer__copyright">&copy; 2020. Сергей Фирсов</p>
     </footer>
   </div>
 </body>
